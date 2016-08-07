@@ -1,0 +1,10 @@
+[Unit]
+Description=Upload G-code files to RapMan3
+
+[Path]
+PathChanged=/home/guest/Desktop/RapMan3
+Unit=octoprint-uploader.service
+
+[Install]
+WantedBy=multi-user.target
+

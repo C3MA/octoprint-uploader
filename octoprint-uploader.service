@@ -1,0 +1,7 @@
+[Unit]
+Description=Uploads G-code files to 3D printers with Octoprint
+
+[Service]
+ExecStart=/usr/local/bin/octoprint-uploader.py /home/guest/.config/octoprint-uploader/config-reprap.yaml /home/guest/.config/octoprint-uploader/config-rapman3.yaml
+User=guest
+Group=guest

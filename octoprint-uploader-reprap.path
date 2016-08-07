@@ -1,0 +1,10 @@
+[Unit]
+Description=Upload G-code files to RepRap
+
+[Path]
+PathChanged=/home/guest/Desktop/RepRap
+Unit=octoprint-uploader.service
+
+[Install]
+WantedBy=multi-user.target
+

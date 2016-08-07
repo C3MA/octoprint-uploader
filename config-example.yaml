@@ -1,0 +1,8 @@
+# Local directory with G-code files produced by slicer
+directory: "/home/guest/Desktop/RepRap/"
+# Name of Octoprint host
+host: "octoprint"
+# API key for access to Octoprint (Setting > API)
+apikey: "323A0A1FD39DD7030A06B3EE128BD9CA"
+# Maximum age of G-code files selected for upload in seconds
+limit: 86400
